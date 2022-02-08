@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+    <title>Ma première page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul style="background-color: aliceblue;" class="navbar">
+        <li><a href="#index">Home</a>
+        <li><a href="#MyProject">My Projects</a>
+        <li><a href="#Contact">Contact Me</a>
+    </ul>
+    <div class="grid">
+        <section style="background-color: brown;" id="index">
+            &nbsp; &nbsp;&nbsp;
+            <h1>Bienvenue a mon profil</h1>
+            <div style="display: flex ; margin: 1%;">
+            <img src="C:\Users\U-Poste\Downloads\dhia.jpg" width="10%" heigth="10%" style="border-radius: 10px;"
+                alt="this my picture"> &nbsp; &nbsp;&nbsp;
+            <p>Mohamed Dhia boubaker  -- Software Engineering</p><br>
+        </div>
+        </section>
+
+        <section id="MyProject" style="background-color: brown;">
+            <h1>My Projects</h1>
+            <ul class="list">
+                <li>E-commerce project</li>
+                <li>Web project</li>
+                <li>Mobile application</li>
+        </section>
+    </div>
+    <section id="contact">
+        <div class="container">
+            <form >
+                <h1 style="text-align: center;">Contact Me</h1>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="email">email</label>
+              <input type="email" id="email" name="email" placeholder="Your email..">
+
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </section>
+</body>
+</html>
